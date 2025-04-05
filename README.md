@@ -1,5 +1,5 @@
-# azure-databrics-ETL-Pipeline
-Production-grade ETL pipeline on Azure transforming raw GitHub data into  analytics-ready star schema with:
+# Azure Data Engineering Project
+Production-grade ETL pipeline on Azure transforming raw GitHub data into analytics-ready star schema with:
 • Extraction: GitHub → Azure SQL via Data Factory
 • Bronze: Raw data landing in Azure Data Lake
 • Silver: Databricks transformations (Parquet)
