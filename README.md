@@ -1,7 +1,7 @@
 # Azure Data Engineering Project
 Production-grade ETL pipeline on Azure transforming raw GitHub data into analytics-ready star schema
 ## Architecture Overview
-
+![Architecture](docs/architecture-diagram.png "Project Architecture")
 **Pipeline Flow**:
 1. **Extract**: GitHub → Azure SQL DB (via ADF)
 2. **Bronze**: Raw data landing in Azure Data Lake
